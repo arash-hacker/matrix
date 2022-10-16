@@ -72,7 +72,7 @@ def make():
                             int(255*random.random()))
 
             canvas[index] = pyglet.text.Label(
-                verticals[v][c], font_name='Times New Roman', font_size=font_size, x=v*36, y=w-c*36,
+                verticals[v][c], font_name='Times New Roman', font_size=font_size, x=v*font_size, y=w-c*font_size,
                 anchor_x="left", anchor_y='center', batch=batch,
                 color=colors[v][c])
 
